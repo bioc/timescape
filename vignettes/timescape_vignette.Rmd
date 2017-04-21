@@ -33,9 +33,6 @@ The first visualization is of the acute myeloid leukemia patient from Ding et al
 The second visualization is of the metastatic ovarian cancer patient 7 from McPherson and Roth et al., 2016.
 
 ```{r, echo=FALSE}
-library(devtools)  
-source("https://bioconductor.org/biocLite.R")
-biocLite("timescape")
 library(timescape)  
 ```
 ```{r, echo=FALSE}

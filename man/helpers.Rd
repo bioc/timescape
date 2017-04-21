@@ -214,7 +214,7 @@ checkClonalPrev(data.frame(timepoint=c(1), clone_id=c(2), clonal_prev=c(0.1)))
 checkTreeEdges(data.frame(source = c("1","1","2","2","5","6"), target=c("2","5","3","4","6","7")))
 checkGtypePositioning("centre")
 checkCloneColours(data.frame(clone_id = c("1","2","3", "4"), colour = c("#beaed4", "#fdc086", "#beaed4", "#beaed4")))
-checkPerts(data.frame(pert_name = c("New Drug"), prev_tp = c("Diagnosis"))
+checkPerts(data.frame(pert_name = c("New Drug"), prev_tp = c("Diagnosis")))
 getMutationsData(data.frame(chrom = c("11"), coord = c(104043), VAF = c(0.1), clone_id=c(1), timepoint=c("Relapse")), 
 data.frame(source = c("1","1","2","2","5","6"), target=c("2","5","3","4","6","7")), 
 data.frame(timepoint = c(rep("Diagnosis", 6), rep("Relapse", 1)), clone_id = c("1","2","3","4","5","6","7"), clonal_prev = c("0.12","0.12","0.18","0.13","0.009","0.061","1")))

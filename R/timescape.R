@@ -542,7 +542,7 @@ checkCloneColours <- function(clone_colours) {
 #'
 #' @param perturbations -- perturbations provided by user
 #' @examples
-#' checkPerts(data.frame(pert_name = c("New Drug"), prev_tp = c("Diagnosis"))
+#' checkPerts(data.frame(pert_name = c("New Drug"), prev_tp = c("Diagnosis")))
 #' @export
 #' @rdname helpers
 #' @return Perturbations after checking them for content types and column names
